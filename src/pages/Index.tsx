@@ -70,7 +70,7 @@ const Index = () => {
             </div>
             <div className="relative">
               <img
-                src="https://cdn.poehali.dev/projects/8e555bfb-c151-44c6-b31a-deaf02356c16/files/6442072c-1815-477e-b3ab-5d3df13c184f.jpg"
+                src="https://cdn.poehali.dev/files/1704a6be-2f56-4e2f-a9a2-076d66e5fdf4.jpg"
                 alt="МБОУ Школа №16"
                 className="w-full h-[400px] object-cover rounded-sm shadow-lg"
               />
@@ -129,35 +129,15 @@ const Index = () => {
       <section id="gallery" className="py-16 px-4">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Галерея</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="group relative overflow-hidden rounded-sm">
+          <div className="flex justify-center">
+            <div className="group relative overflow-hidden rounded-sm max-w-2xl w-full">
               <img
-                src="https://cdn.poehali.dev/projects/8e555bfb-c151-44c6-b31a-deaf02356c16/files/6442072c-1815-477e-b3ab-5d3df13c184f.jpg"
-                alt="Здание школы"
-                className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                src="https://cdn.poehali.dev/files/1704a6be-2f56-4e2f-a9a2-076d66e5fdf4.jpg"
+                alt="Здание школы №16"
+                className="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <p className="text-white p-4 font-medium">Здание школы</p>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-sm">
-              <img
-                src="https://cdn.poehali.dev/projects/8e555bfb-c151-44c6-b31a-deaf02356c16/files/b072942e-4def-4f71-8cf2-1ad840360edd.jpg"
-                alt="Учебные классы"
-                className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <p className="text-white p-4 font-medium">Учебные классы</p>
-              </div>
-            </div>
-            <div className="group relative overflow-hidden rounded-sm">
-              <img
-                src="https://cdn.poehali.dev/projects/8e555bfb-c151-44c6-b31a-deaf02356c16/files/6fe230c7-35b0-4963-89dd-c188ff8a3dca.jpg"
-                alt="Библиотека"
-                className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                <p className="text-white p-4 font-medium">Библиотека</p>
+                <p className="text-white p-4 font-medium">МБОУ Школа №16, г. Нефтекамск</p>
               </div>
             </div>
           </div>
